@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 200px;
+  border: solid 3px blue;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+#nav-menu {
+  display: none;
+}
+
+.navigation {
+  display: none;
+}
+
+
+#nav-menu:checked, navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 500px;
+  height: 500px;
+  border: 1px solid;
+  /* centers container */
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
