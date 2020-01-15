@@ -1,8 +1,8 @@
 function myFunction() {
-  var x = document.getElementById("navigation");
-  if (x.style.display === "none") {
-    x.style.display = "block";
+  var x = document.getElementById("navigation").style;
+  if (x.display == "none" || x.display == "") {
+    x.display = "block";
   } else {
-    x.style.display = "none";
+    x.display = "none";
   }
 }
