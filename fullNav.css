@@ -5,8 +5,7 @@
 }
 
 body {
-    background-image: url("https://c.pxhere.com/photos/1f/69/planet_earth_globe_space_world_continents_blue_light-632989.jpg!d");
-  background-repeat: no-repeat;
+  background-image: url("https://c.pxhere.com/photos/1f/69/planet_earth_globe_space_world_continents_blue_light-632989.jpg!d");
   background-size: cover;
 }
 
@@ -40,21 +39,22 @@ body {
 
 #navigation ul li {
   width: 400px;
-  height: 800px;
+  height: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 2px silver;
+  border: solid 2px #ff7043;
   text-align: center;
   text-transform: uppercase;
   writing-mode: vertical-rl;
   text-orientation: upright;
   font-size: 80px;
-  color: silver;
+  color: #ff7043;
   cursor: pointer;
 }
 
 #navigation ul li:hover {
   color: #eceff1;
   border-color: #eceff1;
+  font-size: 100px;
 }
